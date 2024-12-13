@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+
+nav{
+    height: 73px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+-moz-box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+position: fixed;
+top: 0px;
+background-color: white;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+}
+
+.nav1 {
+    width: 493px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 31px;
+}
+.search{
+    height: 36px;
+    width: 264px;
+    margin-left: 127px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius:20px ;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+-moz-box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+box-shadow: 0px 3px 3px 0px rgba(226,226,226,1);
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 136px;
+    background-image: url("https://www.starbucks.in/assets/icon/logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+}
+.circle2{
+   height: 32px;
+   width: 32px;
+   border-radius: 50%;
+   margin-left: 96px;
+   background-image: url("https://www.starbucks.in/assets/icon/account_thin.svg");
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav2{
+    width: 536px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search img{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+input{
+    margin-left: 10px;
+    width: 200px;
+    border: none;
+    
+    
+}
+main{
+    margin-top: 72px;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.one ,.tow{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 232px;
+    width: 356px;
+    margin-left: 24px;
+    background-color: #f9f9f9;
+    display: flex;
+
+}
+.img1{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 70%;
+    width: 96px;
+    margin-left: 10px;
+}
+.circle3{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/100501.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle4{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/100433.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle5{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/105468.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle6{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/103515.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle7{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/100419.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle8{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-image: url("https://starbucksstatic.cognizantorderserv.com/Items/Small/100100_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    width: 224px;
+    height: 70%;
+    margin-left: 10px;
+    margin-top: 20px;
+   
+}
+
+h3{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+p{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    margin-top: 9px;
+}
+span{
+   
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: -0.1px; 
+    color: #a7a7a7;
+    margin-top: 9px;
+}
+h4{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.1px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(50, 151, 50);
+
+}
+.box:hover{
+    -webkit-box-shadow: 2px 3px 20px 8px rgba(179,170,179,1);
+    -moz-box-shadow: 2px 3px 20px 8px rgba(179,170,179,1);
+    box-shadow: 2px 3px 20px 8px rgba(179,170,179,1);
+}
+.nav p{
+    line-height: 24px;
+    font-size: 16px;
+}
+.nav1 p:hover{
+    color: green;
+    border-bottom: 2px solid green;
+    
+}
+
+/* Base styles remain unchanged */
+
+@media (max-width: 1024px) {
+    nav {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .nav1, .nav2 {
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .search {
+        margin: 10px auto;
+    }
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .one, .tow {
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    main{
+        margin-top: 200px;
+    }
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+    nav {
+        padding: 10px 0;
+    }
+    .search {
+        width: 90%;
+    }
+    input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 428px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+    
+    /* .nav1, .nav2 {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .search {
+        width: 100%;
+        padding: 5px;
+    }
+    .circle, .circle2 {
+        margin: 10px 0;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .img1, .text {
+        width: 100%;
+        text-align: center;
+    }
+    h3, span, p, h4 {
+        text-align: center;
+    }
+}
